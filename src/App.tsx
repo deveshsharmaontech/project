@@ -8,7 +8,7 @@ import CollectionPoints from './pages/CollectionPoints';
 import WhatToRecycle from './pages/WhatToRecycle';
 import Events from './pages/Events';
 import GetInvolved from './pages/GetInvolved';
-// import Resources from './pages/Resources';
+import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             <Route path="/what-to-recycle" element={<WhatToRecycle />} />
             <Route path="/events" element={<Events />} />
             <Route path="/get-involved" element={<GetInvolved />} />
-            {/* <Route path="/resources" element={<Resources />} /> */}
+            <Route path="/resources" element={<Resources />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
