@@ -20,10 +20,41 @@ const Navbar = () => {
     <nav className="bg-green-600 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <Leaf className="h-8 w-8" />
-            <span className="font-bold text-xl">GreenTech Recycle</span>
-          </Link>
+        <Link to="/" className="flex items-center space-x-2">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-8 w-8 text-white"
+    viewBox="0 0 64 64"
+    fill="none"
+  >
+    <circle cx="32" cy="32" r="30" stroke="white" strokeWidth="4" />
+    <path
+      d="M32 12C24 20 22 28 28 34C34 40 42 38 50 30"
+      stroke="white"
+      strokeWidth="3"
+      strokeLinecap="round"
+    />
+    <path
+      d="M32 12C38 20 40 28 34 34C28 40 20 38 12 30"
+      stroke="white"
+      strokeWidth="3"
+      strokeLinecap="round"
+    />
+    <path
+      d="M26 38L28 42"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path
+      d="M38 38L36 42"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+  </svg>
+  <span className="font-bold text-xl">GreenTech Recycle</span>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-4">
